@@ -13,6 +13,18 @@ public class MainMenu {
         System.out.println("********************************");
         System.out.print("Please Make A Choice: ");
         int choice = sc.nextInt();
+        switch (choice){
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            default:
+                System.out.println("Wrong choice! Please choose from menu.");
+        }
 
 
     }
