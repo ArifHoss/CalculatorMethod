@@ -2,6 +2,8 @@ package menu;
 
 import java.util.Scanner;
 
+import static method.CalculatorMethoder.*;
+
 public class MainMenu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,6 +17,7 @@ public class MainMenu {
         int choice = sc.nextInt();
         switch (choice){
             case 1:
+                multiplication();
                 break;
             case 2:
                 break;
