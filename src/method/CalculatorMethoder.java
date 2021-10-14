@@ -14,4 +14,13 @@ public class CalculatorMethoder {
 
     }
 
+    public static void multiply() {
+        System.out.print("Enter Number: ");
+        int x = scanner.nextInt();
+        System.out.print("Enter Number: ");
+        int y = scanner.nextInt();
+        int result = x * y;
+        System.out.println("Multiply "+x + " * " + y + " = " + result);
+    }
+
 }

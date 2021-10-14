@@ -14,6 +14,7 @@ public class MainMenu {
             System.out.println("2. Multiply");
             System.out.println("3. Division");
             System.out.println("4. Addition");
+            System.out.println("0. Exit");
             System.out.println("********************************");
             System.out.print("Please Make A Choice: ");
             int choice = sc.nextInt();
@@ -25,6 +26,7 @@ public class MainMenu {
                     multiplication();
                     break;
                 case 2:
+                    multiply();
                     break;
                 case 3:
                     break;
