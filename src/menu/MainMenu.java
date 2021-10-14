@@ -15,6 +15,7 @@ public class MainMenu {
             System.out.println("3. Division");
             System.out.println("4. Addition");
             System.out.println("5. Subtraction");
+            System.out.println("6. Remainder");
             System.out.println("0. Exit");
             System.out.println("********************************");
             System.out.print("Please Make A Choice: ");
@@ -23,21 +24,31 @@ public class MainMenu {
                 case 0:
                     repeat = false;
                     break;
+
                 case 1:
                     multiplication();
                     break;
+
                 case 2:
                     multiply();
                     break;
+
                 case 3:
                     division();
                     break;
+
                 case 4:
                     addition();
                     break;
+
                 case 5:
                     subtraction();
                     break;
+
+                case 6:
+                    remainder();
+                    break;
+
                 default:
                     System.out.println("Wrong choice! Please choose from menu.");
             }

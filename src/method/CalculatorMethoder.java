@@ -52,4 +52,13 @@ public class CalculatorMethoder {
        System.out.println("Subtraction " + x + " - " + y + " = " + result);
    }
 
+   public static void remainder(){
+       System.out.print("Enter Number: ");
+       int x = scanner.nextInt();
+       System.out.print("Enter Number: ");
+       int y = scanner.nextInt();
+       int result = x % y;
+       System.out.println("Addition " + x + " % " + y + " = " + result);
+   }
+
 }
