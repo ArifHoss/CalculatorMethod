@@ -34,5 +34,22 @@ public class CalculatorMethoder {
 
     }
 
+    public static void addition(){
+        System.out.print("Enter Number: ");
+        int x = scanner.nextInt();
+        System.out.print("Enter Number: ");
+        int y = scanner.nextInt();
+        int result = x + y;
+        System.out.println("Addition " + x + " + " + y + " = " + result);
+
+    }
+   public static void subtraction(){
+       System.out.print("Enter Number: ");
+       int x = scanner.nextInt();
+       System.out.print("Enter Number: ");
+       int y = scanner.nextInt();
+       int result = x - y;
+       System.out.println("Subtraction " + x + " - " + y + " = " + result);
+   }
 
 }
