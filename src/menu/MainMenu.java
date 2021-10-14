@@ -29,6 +29,7 @@ public class MainMenu {
                     multiply();
                     break;
                 case 3:
+                    division();
                     break;
                 case 4:
                     break;

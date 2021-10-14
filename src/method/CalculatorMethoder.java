@@ -20,7 +20,19 @@ public class CalculatorMethoder {
         System.out.print("Enter Number: ");
         int y = scanner.nextInt();
         int result = x * y;
-        System.out.println("Multiply "+x + " * " + y + " = " + result);
+        System.out.println("Multiply " + x + " * " + y + " = " + result);
     }
+
+    public static void division() {
+        System.out.print("Enter Number: ");
+        int x = scanner.nextInt();
+        System.out.print("Enter Number: ");
+        int y = scanner.nextInt();
+        int result = x / y;
+        System.out.println("Division " + x + " / " + y + " = " + result);
+
+
+    }
+
 
 }
